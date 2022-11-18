@@ -1,9 +1,9 @@
 # main text of home
-title: John Doe
-bio: A Person who travels the world eating noodles
+title: Matteo Tafuro
+bio: Medical Imaging Enthusiast
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: My perosnal website
 
 # if it's an external image, update below for true
 # better with square images
@@ -18,9 +18,9 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: assets/resume/resume.pdf
 
-url: https://sergiokopplin.github.io/indigo
+url: https://lutai14.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,26 +34,19 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: myinstagram
+linkedin: https://www.linkedin.com/in/matteo-tafuro/
+github: https://github.com/lutai14/
+email: tafuromatteo00@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  matteotafuro:
+    name: Matteo Tafuro
+    bio: Medical Imaging Enthusiast
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -62,7 +55,7 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
   per_page: 5
